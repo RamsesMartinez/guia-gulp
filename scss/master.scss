@@ -1,0 +1,11 @@
+$color-dark: #353535;
+$color-light: #b9b9b9;
+
+body {
+  color: $color-dark;
+  p {
+    background-color: $color-light;
+    display: flex;
+    flex-direction: column;
+  }
+}
